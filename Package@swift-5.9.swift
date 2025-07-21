@@ -1,7 +1,7 @@
 // swift-tools-version:5.9
 import PackageDescription
 
-#if canImport(Compression)
+#if true
 let targets: [Target] = [
     .target(name: "ZIPFoundation",
             resources: [
